@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lecstu/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,7 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Text('hi'),
+      title: 'LecStu',
+      debugShowCheckedModeBanner: false,
+      home: SplashScreen(),
     );
   }
 }
