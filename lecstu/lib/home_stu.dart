@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:lecstu/registration/registration.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class HomeStu extends StatelessWidget {
+  const HomeStu({super.key});
 
   @override
   Widget build(BuildContext context) {
